@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Agency</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Travel Agency</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Explore the World with Us</h2>
+            <p>Discover amazing destinations and plan your dream vacation.</p>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+        </div>
+    </section>
+
+    <section id="destinations">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <div class="destination" data-aos="fade-up">
+                <img src="destination1.jpg" alt="Destination 1">
+                <h3>City 1</h3>
+                <p>Experience the vibrant culture and rich history.</p>
+            </div>
+            <div class="destination" data-aos="fade-up">
+                <img src="destination2.jpg" alt="Destination 2">
+                <h3>City 2</h3>
+                <p>Relax on beautiful beaches and enjoy the sun.</p>
+            </div>
+            <!-- Add more destinations as needed -->
+        </div>
+    </section>
+
+    <section id="packages">
+        <div class="container">
+            <h2>Our Packages</h2>
+            <div class="package">
+                <h3>Package 1</h3>
+                <p>Explore City 1 with our exclusive package.</p>
+                <span class="price">$999</span>
+                <button class="btn" data-package="1">Book Now</button>
+            </div>
+            <div class="package">
+                <h3>Package 2</h3>
+                <p>Relax in City 2 with our all-inclusive package.</p>
+                <span class="price">$1299</span>
+                <button class="btn" data-package="2">Book Now</button>
+            </div>
+            <!-- Add more packages as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch for personalized travel advice and bookings.</p>
+            <form id="contactForm">
+                <!-- Add form fields here -->
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Travel Agency. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
